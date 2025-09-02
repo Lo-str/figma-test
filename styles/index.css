@@ -1,0 +1,134 @@
+/* I did not set max widths since the webpage is not maint to be responsive */
+/* In certrain cases like to prevent the image from wraping, the max-width was in the way.
+I didn't want to use flex since this was not the assigment at the first place so I opted for non responsive blocks and horizontal scrolling =) */
+/* Body style */
+
+body {
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 0.02em;
+    font-weight: normal;
+    line-height: 32px;
+    max-width: 1600px;
+    margin: auto;
+    overflow-x: auto;
+}
+
+/* Prevent wrapping when rezising browser */
+header {
+    white-space: nowrap;
+    min-width: 1400px;
+    padding-left: 80px;
+    padding-right: 68px;
+}
+
+/* Display the logo on the same line as the navigation bar */
+.logo, header nav, .sign-up-btn {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/* Logo (H3) style */
+.logo {
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 48px;
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+    max-width: 95px;
+    margin-right: 93px;
+}
+
+/* Logo style */
+.logo-dot {
+    color: #4F56F1;
+}
+
+/* header navigation style */
+.main-nav a {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    font-size: 16px;
+    color: #1B0A42;
+    margin-right: 40px;
+    text-decoration: none;
+}
+
+/* "Sign in" button style */
+.sign-in {
+    margin-left: 700px;
+    max-width: 51px;
+} 
+
+/* "Sign Up" button style */
+.sign-up-btn {
+    background:#4F56F1;
+    border-radius: 6px;
+    width: 120px;
+    height: 60px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-left: 40px;
+}
+
+/* Main overall style */
+.style-main {
+    white-space: nowrap;
+    max-width: 1600px;
+
+}
+
+/* main section style */
+.main-section {
+    white-space: normal;
+    padding-left: 200px;
+}
+
+/* Display the image on the same axe as the page's main content */
+.main-section, .img-section {
+    display: inline-block;
+}
+
+/* Image style */
+.img-section {
+    margin-top: 114px;
+    margin-left: 115px;
+    width: 653px;
+}
+
+/* H1 style */
+.main-title {
+    font-family: "Ramaraja";
+    font-weight: 400;
+    font-size: 71px;
+    line-height: 76px;
+    color: #1B0A42; 
+    width: 100%;
+    max-width: 495px;
+    margin-top: 209px;
+}
+
+/* Paragrapghe style */
+.main-info {
+    font-size: 20px;
+    color: #9A9A9A;
+    width: 100%;
+    max-width: 538px;
+    margin-top: 10px;
+}
+
+/* "Learn More" button style */
+.learn-btn {
+    background:#4F56F1;
+    border-radius: 6px;
+    width: 152px;
+    height: 64px;
+    border-style: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 50px;
+}
