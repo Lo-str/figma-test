@@ -44,6 +44,14 @@ header {
     color: #4F56F1;
 }
 
+.main-nav a, .sign-up-btn, .learn-btn {
+    transition: transform 0.2s;
+}
+
+.main-nav a:hover, .sign-up-btn:hover, .learn-btn:hover {
+    transform: scale(1.15);
+}
+
 /* header navigation style */
 .main-nav a {
     display: inline-block;
