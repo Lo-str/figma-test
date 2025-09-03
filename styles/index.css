@@ -1,4 +1,4 @@
-/* I did not set max widths since the webpage is not maint to be responsive */
+/* I did not set max widths since the webpage is not meant to be responsive */
 /* In certrain cases like to prevent the image from wraping, the max-width was in the way.
 I didn't want to use flex since this was not the assigment at the first place so I opted for non responsive blocks and horizontal scrolling =) */
 /* Body style */
@@ -83,7 +83,6 @@ header {
 
 /* main section style */
 .main-section {
-    white-space: normal;
     padding-left: 200px;
 }
 
