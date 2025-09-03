@@ -36,7 +36,7 @@ header {
     letter-spacing: -0.02em;
     color: #0A1B32;
     max-width: 95px;
-    margin-right: 93px;
+    margin-right: 90px;
 }
 
 /* Logo style */
@@ -72,6 +72,7 @@ header {
     font-size: 15px;
     color: #FFFFFF;
     margin-left: 40px;
+    margin-right: 90px;
 }
 
 /* Main overall style */
